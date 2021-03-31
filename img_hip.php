@@ -62,7 +62,6 @@
             <input type="submit">
             <br><br>
         </form>
-        '.$verifimg.'
     </div> 
     ';
 
