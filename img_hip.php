@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-    <title>Human Interaction Proof</title>
-</head>
-<body>
-		
 <?php	
 
     echo'
@@ -75,6 +67,3 @@
     ';
 
 ?>
-
-</body>
-</html>

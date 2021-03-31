@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>Human Interaction Proof</title>
-    <link  type="text/css" rel="stylesheet" href="style.css?<?php echo time(); ?>"/>
-</head>
-<body>
 <?php
+	include 'top.html';
 
     function microtime_float(){ 
         list($usec, $sec) = explode(" ", microtime()); 

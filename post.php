@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"/>
-    <title>Human Interaction Proof</title>
-</head>
-<body>
-		
 <?php	
 
 
@@ -50,6 +42,3 @@ echo'<input type="hidden" name="ord" value="'.$_POST['ord'].'">
 	 <input type="hidden" name="num" value="'.$num.'">';
 
 ?>
-
-</body>
-</html>

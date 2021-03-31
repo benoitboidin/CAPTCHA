@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>Human Interraction Proof</title>
-    <link  type="text/css" rel="stylesheet" href="style.css?<?php echo time(); ?>"/>
-</head>
-
-<body>
+<?php
+    include 'top.html';
+?>
     <div id="consigne">
         Bonjour, vous allez passez une épreuve de résolution de CAPTCHA. Ce sont des tests visant à vérifier si vous êtes un humain. <br> Lorsque vous appuierez sur "Départ", vous serez chronométré. <br><br>
         
