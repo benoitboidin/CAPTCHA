@@ -39,7 +39,10 @@
     } 
 
     // ENREGISTREMENT. 
-    if (isset($_POST['tpstxt']) and isset($_POST['tpsimg']) and isset($_POST['tpsill']) and isset($_POST['tpsend'])){
+    if (isset($_POST['tpstxt']) and 
+    	isset($_POST['tpsimg']) and 
+    	isset($_POST['tpsill']) and 
+    	isset($_POST['tpsend'])){
 
         $user = fopen('subjects_data.txt', 'r+');
         fseek($user, 0, SEEK_END);
@@ -96,20 +99,36 @@
 
         // Affichage des résultats pour l'utilisateur. 
         echo '
-        <p> 
-            Merci beaucoup pour votre participation. <br> 
-            Voici vos résultats : <br>
-        </p>
+        <div id="consigne">
+	        <p> 
+	            Merci beaucoup pour votre participation. <br> 
+	            Voici vos résultats : <br>
+	        </p>
+        </div>
         <p>';
-	    echo 'TEXTE :     '.$_POST['restxt'].$restxt.' (tps : '.$tpstxt.')<br>
-	          IMAGES :    '.$_POST['resimg'].$resimg.' (tps : '.$tpsimg.')<br>
-              ILLUSIONS : '.$_POST['resill'].$resill.' (tps : '.$tpsill.')<br>
+	    echo 'TEXTE :     '.$_POST['restxt'].$restxt.' (temps : '.$tpstxt.')<br>
+	          IMAGES :    '.$_POST['resimg'].$resimg.' (temps : '.$tpsimg.')<br>
+              ILLUSIONS : '.$_POST['resill'].$resill.' (temps : '.$tpsill.')<br>
 
                Âge : '.$_POST['age'].
-            ', internet : '.$_POST['freq_int'].
-            ', ordinateur : '.$_POST['freq_ord'].
+            ', utilisation d\'internet : '.$_POST['freq_int'].
+            ', utilisation d\'un ordinateur : '.$_POST['freq_ord'].
             ', préférence : '.$_POST['pref'].
-            '.</p>';
+            '.</p>
+            <p>
+            Informations : 
+      		<br><br>
+      		Les CAPTCHA sont conçus pour vérifier si vous êtes bien un humain. Cette vérification est importante, car si des robots utilisaient certains services, cela pourrait poser problème. Sans vérification, il serait possible qu\'ils envoient un grand nombre de réponses à un sondage en ligne, ce qui fausserait les résultats. Il seraient également en mesure de créer des centaines d\'adresses e-mail et d\'envoyer des spams par exemple. 
+      		<br><br>
+      		Les tests sont aussi appelés HIP, pour "Human Interaction Proof". Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour égaler les capacités humaines en lecture et reconnaissance d\'images, si ce n\'est les dépasser. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur. 
+      		<br><br>
+      		L\'expérimentation que vous venez de passer vise à évaluer la pertinence d\'une nouvelle sorte de tests (l\'illusion d\'optique). 
+            </p>
+            <p>
+            En cas de problème ou de question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
+            </p>
+
+            ';
     }
 ?>
 </body>

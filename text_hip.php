@@ -15,7 +15,7 @@
         <form action="1.php" method="POST">
             Réponse : <br>
 
-            <input type="text" name="reptxt" autocomplete="off" required>
+            <input type="text" name="reptxt" autocomplete="off" autocapitalize="none" required>
             <input type="hidden" name="tpstxt" value="'.microtime_float().'">
             <input type="hidden" name="veriftxt" value="'.$hip.'">';
             include'post.php';
