@@ -14,7 +14,6 @@
 		$resimg=1;
 		$i=0;
 		foreach ($_POST['repimg'] as $ligne) {
-			echo'ligne';
 	    	if ($ligne!=0){
 	    		$resimg=0;
 	    		$i=+1;
