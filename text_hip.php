@@ -13,7 +13,7 @@
     </div> 
     <div id="reponse">
         <form action="1.php" method="POST">
-            Réponse :
+            Réponse : <br>
 
             <input type="text" name="reptxt" autocomplete="off" required>
             <input type="hidden" name="tpstxt" value="'.microtime_float().'">
