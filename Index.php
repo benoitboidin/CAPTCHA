@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8"/>
     <title>Human Interraction Proof</title>
-    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <link  type="text/css" rel="stylesheet" href="style.css?<?php echo time(); ?>"/>
 </head>
 
 <body>

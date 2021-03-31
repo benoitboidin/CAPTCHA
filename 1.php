@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Human Interaction Proof</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link  type="text/css" rel="stylesheet" href="style.css?<?php echo time(); ?>"/>
 </head>
 <body>
 <?php
@@ -108,10 +108,11 @@
             Voici vos résultats : <br>
         </p>
         <p>';
-	    echo 'TEXTE :     '.$_POST['restxt'].$restxt.' (tps : '.$tpstxt.')<br>';
-	    echo 'IMAGES :    '.$_POST['resimg'].$resimg.' (tps : '.$tpsimg.')<br>';
-	    echo 'ILLUSIONS : '.$_POST['resill'].$resill.' (tps : '.$tpsill.')<br>';
-        echo 'Âge : '.$_POST['age'].
+	    echo 'TEXTE :     '.$_POST['restxt'].$restxt.' (tps : '.$tpstxt.')<br>
+	          IMAGES :    '.$_POST['resimg'].$resimg.' (tps : '.$tpsimg.')<br>
+              ILLUSIONS : '.$_POST['resill'].$resill.' (tps : '.$tpsill.')<br>
+
+               Âge : '.$_POST['age'].
             ', internet : '.$_POST['freq_int'].
             ', ordinateur : '.$_POST['freq_ord'].
             ', préférence : '.$_POST['pref'].
