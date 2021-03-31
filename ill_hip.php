@@ -19,10 +19,11 @@
     </div> 
     <div id="reponse">
         <form action="1.php" method="POST">
-            
-            Réponse : 
+
             <input type="radio" name="repill[]" value="g">
+            Gauche
             <input type="radio" name="repill[]" value="d">
+            Droite
             <input type="hidden" name="verifill" value="'.$hip.'">  
             <input type="hidden" name="tpsill" value="'.microtime_float().'">';
             include'post.php';
