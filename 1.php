@@ -63,27 +63,27 @@
 
         if (substr($_POST['ord'], 0, 1)=='2'){
             if (substr($_POST['ord'], 1, 1)=='1'){ // image, texte, illusion
-                $tpstxt=$_POST['tpstxt']-$_POST['tpsimg'];
-                $tpsimg=$_POST['tpsill']-$_POST['tpstxt'];
+                $tpsimg=$_POST['tpstxt']-$_POST['tpsimg'];
+                $tpstxt=$_POST['tpsill']-$_POST['tpstxt'];
                 $tpsill=$_POST['tpsend']-$_POST['tpsill'];    
             }
             if (substr($_POST['ord'], 1, 1)=='3'){ // image, illusion, texte
-                $tpstxt=$_POST['tpsill']-$_POST['tpsimg'];
+                $tpsimg=$_POST['tpsill']-$_POST['tpsimg'];
                 $tpsill=$_POST['tpstxt']-$_POST['tpsill'];
-                $tpsimg=$_POST['tpsend']-$_POST['tpstxt'];
+                $tpstxt=$_POST['tpsend']-$_POST['tpstxt'];
             }
         }
 
         if (substr($_POST['ord'], 0, 1)=='3'){  
             if (substr($_POST['ord'], 1, 1)=='1'){ // illusion, texte, image
-                $tpstxt=$_POST['tpstxt']-$_POST['tpsill'];
-                $tpsimg=$_POST['tpsimg']-$_POST['tpstxt'];
-                $tpsill=$_POST['tpsend']-$_POST['tpsimg'];  
+                $tpsill=$_POST['tpstxt']-$_POST['tpsill'];
+                $tpstxt=$_POST['tpsimg']-$_POST['tpstxt'];
+                $tpsimg=$_POST['tpsend']-$_POST['tpsimg'];  
             }
             if (substr($_POST['ord'], 1, 1)=='2'){ // illusion, image, texte
-                $tpstxt=$_POST['tpsimg']-$_POST['tpsill'];
-                $tpsill=$_POST['tpstxt']-$_POST['tpsimg'];
-                $tpsimg=$_POST['tpsend']-$_POST['tpstxt'];
+                $tpsill=$_POST['tpsimg']-$_POST['tpsill'];
+                $tpsimg=$_POST['tpstxt']-$_POST['tpsimg'];
+                $tpstxt=$_POST['tpsend']-$_POST['tpstxt'];
             }
         }
 
@@ -98,7 +98,7 @@
                     $_POST['ord']."\n");
 
         // Affichage des résultats pour l'utilisateur. 
-        echo '
+        echo'
         <div id="consigne">
 	        <p> 
 	            Merci beaucoup pour votre participation. <br> 
@@ -106,16 +106,17 @@
 	        </p>
         </div>
         <p>';
-	    echo 'TEXTE :     '.$_POST['restxt'].$restxt.' (temps : '.$tpstxt.')<br>
-	          IMAGES :    '.$_POST['resimg'].$resimg.' (temps : '.$tpsimg.')<br>
-              ILLUSIONS : '.$_POST['resill'].$resill.' (temps : '.$tpsill.')<br>
+	    echo'
+	    	TEXTE :     '.$_POST['restxt'].$restxt.' (temps : '.$tpstxt.')<br>
+	        IMAGES :    '.$_POST['resimg'].$resimg.' (temps : '.$tpsimg.')<br>
+            ILLUSIONS : '.$_POST['resill'].$resill.' (temps : '.$tpsill.')<br>
 
-               Âge : '.$_POST['age'].
-            ', utilisation d\'internet : '.$_POST['freq_int'].
-            ', utilisation d\'un ordinateur : '.$_POST['freq_ord'].
-            ', préférence : '.$_POST['pref'].
-            '.</p>
-            <p>
+               Âge : '.$_POST['age'].', 
+               utilisation d\'internet : '.$_POST['freq_int'].', 
+               utilisation d\'un ordinateur : '.$_POST['freq_ord'].', 
+               préférence : '.$_POST['pref'].'.
+        </p>
+        <p>
             Informations : 
       		<br><br>
       		Les CAPTCHA sont conçus pour vérifier si vous êtes bien un humain. Cette vérification est importante, car si des robots utilisaient certains services, cela pourrait poser problème. Sans vérification, il serait possible qu\'ils envoient un grand nombre de réponses à un sondage en ligne, ce qui fausserait les résultats. Il seraient également en mesure de créer des centaines d\'adresses e-mail et d\'envoyer des spams par exemple. 
@@ -123,10 +124,10 @@
       		Les tests sont aussi appelés HIP, pour "Human Interaction Proof". Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour égaler les capacités humaines en lecture et reconnaissance d\'images, si ce n\'est les dépasser. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur. 
       		<br><br>
       		L\'expérimentation que vous venez de passer vise à évaluer la pertinence d\'une nouvelle sorte de tests (l\'illusion d\'optique). 
-            </p>
-            <p>
+        </p>
+        <p>
             En cas de problème ou de question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
-            </p>
+        </p>
 
             ';
     }
