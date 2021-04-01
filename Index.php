@@ -2,7 +2,7 @@
     include 'top.html';
 ?>
     <div id="consigne">
-        Bonjour, vous allez passez une épreuve de résolution de CAPTCHA. Ce sont des tests visant à vérifier si vous êtes un humain. <br> Lorsque vous appuierez sur "Départ", vous serez chronométré. <br><br>
+        Bonjour, vous allez passer une épreuve de résolution de CAPTCHA. Ce sont des tests visant à vérifier si vous êtes un humain. <br> Lorsque vous appuierez sur "Départ", vous serez chronométré. <br><br>
         
         <?php
         $ord='123';

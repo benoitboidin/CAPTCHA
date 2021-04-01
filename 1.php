@@ -95,7 +95,8 @@
                     $_POST['freq_ord'].', '.
                     $_POST['freq_int'].', '.
                     $_POST['pref'].', '.
-                    $_POST['ord']."\n");
+                    $_POST['ord'].', '.
+                    $_SERVER['REMOTE_ADDR']."\n");
 
         // Affichage des résultats pour l'utilisateur. 
         echo'
