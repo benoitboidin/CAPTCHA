@@ -120,16 +120,15 @@
         <p>
             Informations : 
       		<br><br>
-      		Les CAPTCHA sont conçus pour vérifier si vous êtes bien un humain. Cette vérification est importante, car si des robots utilisaient certains services, cela pourrait poser problème. Sans vérification, il serait possible qu\'ils envoient un grand nombre de réponses à un sondage en ligne, ce qui fausserait les résultats. Il seraient également en mesure de créer des centaines d\'adresses e-mail et d\'envoyer des spams par exemple. 
+      		Les CAPTCHA, aussi appelés HIP, pour "Human Interaction Proof", sont conçus pour vérifier si vous êtes bien humain. Cette vérification est importante :  sans elle, il serait possible qu\'un robot envoie un grand nombre de réponses à un sondage en ligne, ce qui fausserait les résultats ; ils seraient également en mesure de créer des centaines d\'adresses e-mail, d\'envoyer des spams et de saturer des serveurs par exemple. 
       		<br><br>
-      		Les tests sont aussi appelés HIP, pour "Human Interaction Proof". Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour égaler les capacités humaines en lecture et reconnaissance d\'images, si ce n\'est les dépasser. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur. 
+      		Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour dépasser les capacités humaines en lecture et reconnaissance d\'images. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur. 
       		<br><br>
       		L\'expérimentation que vous venez de passer vise à évaluer la pertinence d\'une nouvelle sorte de tests (l\'illusion d\'optique). 
         </p>
         <p>
-            En cas de problème ou de question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
+            Si vous reamrquez un problème, ou avez une question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
         </p>
-
             ';
     }
 ?>
