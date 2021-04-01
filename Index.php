@@ -7,7 +7,7 @@
         <?php
         $ord='123';
         $ord=str_shuffle($ord);
-        echo '
+        echo'
         <form action="1.php" method="POST">
             <input type="hidden" name="ord" value="'.$ord.'">
             <input type="hidden" name="num" value="0">
