@@ -127,7 +127,7 @@
       		L\'expérimentation que vous venez de passer vise à évaluer la pertinence d\'une nouvelle sorte de tests (l\'illusion d\'optique). 
         </p>
         <p>
-            Si vous reamrquez un problème, ou avez une question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
+            Si vous remarquez un problème, ou avez une question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
         </p>
             ';
     }
