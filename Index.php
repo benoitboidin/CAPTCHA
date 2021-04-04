@@ -19,6 +19,8 @@
     </div> 
     <div>
         <p>
+            Si une image n'apparait pas, veuillez raffraîchir la page. 
+            <br>
             Aucune information personnelle ne sera enregistrée. 
             <br>
             Vos résultats serviront à alimenter une base de données pour la rédaction d'un mémoire dans le cadre de la licence MIASHS à l'Université Lumière Lyon 2.

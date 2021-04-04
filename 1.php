@@ -118,16 +118,20 @@
                préférence : '.$_POST['pref'].'.
         </p>
         <p>
+            Si vous remarquez un problème, ou avez une question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. N\'hésitez pas à partager ce site ;) 
+        </p>
+        <p>
             Informations : 
       		<br><br>
       		Les CAPTCHA, aussi appelés HIP, pour "Human Interaction Proof", sont conçus pour vérifier si vous êtes bien humain. Cette vérification est importante :  sans elle, il serait possible qu\'un robot envoie un grand nombre de réponses à un sondage en ligne, ce qui fausserait les résultats ; ils seraient également en mesure de créer des centaines d\'adresses e-mail, d\'envoyer des spams et de saturer des serveurs par exemple. 
       		<br><br>
-      		Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour dépasser les capacités humaines en lecture et reconnaissance d\'images. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur. 
-      		<br><br>
-      		L\'expérimentation que vous venez de passer vise à évaluer la pertinence d\'une nouvelle sorte de tests (l\'illusion d\'optique). 
+      		Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour dépasser les capacités humaines en lecture et reconnaissance d\'images. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur.  
         </p>
         <p>
-            Si vous remarquez un problème, ou avez une question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. 
+        	Les CAPTCHA sont inspirés du test de Turing, un brillant mathématicien britannique. Celui-ci avait énoncé le principe suivant : si une machine est capable de faire croire qu\'elle est humaine, alors elle peut être considérée comme intelligente. Ici, c\'est le contraire qui se produit : la personne doit convaincre qu\'elle n\'est pas une machine.
+        </p>
+        <p>
+        	L\'expérimentation que vous venez de passer vise à évaluer la pertinence d\'une nouvelle sorte de tests : les illusions d\'optique. La démarche est opposée aux tests calssiques : il s\'agit ici que l\'utilisateur échoue (le principe d\'une illusion est de mettre nos sens en défaut). Avant de mettre en pratique ce type d\'évaluation, nous voulions tout d\'abord savoir si celui-ci convenait aux utilisateurs. C\'est la raison de la mise en place de ce site. 
         </p>
             ';
     }
