@@ -20,7 +20,7 @@
     <div id="reponse">
         <form action="1.php" method="POST">
 
-            <input type="radio" name="repill[]" value="g">
+            <input type="radio" name="repill[]" value="g" required>
             Gauche
             <input type="radio" name="repill[]" value="d">
             Droite
