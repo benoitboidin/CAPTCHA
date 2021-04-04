@@ -5,6 +5,7 @@
         Veuillez sélectionner les images de voitures.
     </div> 
     <div id="captcha">
+        Si vous ne voyez pas de voitures, appuyez sur Envoyer.
         ';
 
     // Récupération des images cibles (voitures) et distracteurs.
@@ -31,7 +32,7 @@
     $verifimg=0;
     echo'
         <form action="1.php" method="POST">
-            <fieldset required>
+            <fieldset>
                 <table width="100%">';
 
 

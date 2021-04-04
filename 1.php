@@ -121,10 +121,10 @@
             Si vous remarquez un problème, ou avez une question, vous pouvez me contacter par <a href = "mailto: contact@benoitboidin.tech">e-mail</a>. N\'hésitez pas à partager ce site ;) 
         </p>
         <p>
-            Informations : 
+            <strong>Informations : </strong>
       		<br><br>
       		Les CAPTCHA, aussi appelés HIP, pour "Human Interaction Proof", sont conçus pour vérifier si vous êtes bien humain. Cette vérification est importante :  sans elle, il serait possible qu\'un robot envoie un grand nombre de réponses à un sondage en ligne, ce qui fausserait les résultats ; ils seraient également en mesure de créer des centaines d\'adresses e-mail, d\'envoyer des spams et de saturer des serveurs par exemple. 
-      		<br><br>
+      		<br>
       		Cependant, certains programmes, notamment les réseaux de neurones, sont aujourd\'hui assez puissants pour dépasser les capacités humaines en lecture et reconnaissance d\'images. Il est alors nécessaire de créer de nouvelles épreuves, plus difficiles à surmonter par un système informatique, mais sans gêner l\'expérience de l\'utilisateur.  
         </p>
         <p>
